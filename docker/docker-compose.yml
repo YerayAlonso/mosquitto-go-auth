@@ -11,8 +11,6 @@ services:
     image: iegomez/mosquitto-go-auth:latest
     volumes:
       - ./conf:/etc/mosquitto
-    ports:
-      - 1883:1883
 
 volumes:
   redisdata:
